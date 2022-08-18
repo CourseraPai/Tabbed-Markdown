@@ -1,0 +1,95 @@
+---
+title: "Runkeeper Exploratory Analysis"
+output: html_document
+date: "2022-08-17"
+---
+
+## {.tabset }
+
+### EDA
+
+#### 1.A glimpse of the dataset
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+readd(runkeeperEDA1)
+
+```
+
+#### 2.Numeric variable exploration 
+
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+readd(runkeeperEDA2)
+
+```
+
+
+#### 3.Numeric variables visualised
+
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+grid.arrange(grobs=readd(runkeeperEDA3),ncol=2)
+
+```
+
+#### 4.Category variables exploration
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+readd(runkeeperEDA4)
+
+```
+
+
+#### 5.Category variables visualised
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+grid.arrange(grobs=readd(runkeeperEDA5),ncol=2)
+
+```
+
+#### 6.Category variables visualised
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+readd(runkeeperEDA6)
+
+```
+
+#### 7.Correlation
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+readd(runkeeperEDA7)
+
+```
+
+
+### Running Data
+
+#### Running Data Plots
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+grid.arrange(grobs=readd(runkeeper_run_stats1),ncol=2)
+
+```
+
+
+### Visualization with averages
+
+#### Average plot
+
+```{r echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE,error=FALSE,tidy=TRUE}
+
+readd(runkeeper_run_stats2)
+```
+
+
+
+### {-}
+
